@@ -141,9 +141,11 @@ glew32s.lib;%(AdditionalDependencies)</AdditionalDependencies>
   <ItemGroup>
     <ClCompile Include="controls.cpp" />
     <ClCompile Include="loadBMP.cpp" />
+    <ClCompile Include="loadOBJ.cpp" />
     <ClCompile Include="loadShader.cpp" />
     <ClCompile Include="loadTGA.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OBJLoader.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="SimpleFragmentShader.fragmentshader" />
