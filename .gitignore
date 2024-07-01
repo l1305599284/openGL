@@ -1,0 +1,44 @@
+# 忽略编译生成的文件
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.ncb
+*.sdf
+*.suo
+*.pdb
+*.idb
+*.class
+ 
+# 忽略项目依赖项和配置
+deps/
+build/
+ 
+# 忽略IDE设置和文件
+.vs/
+x64/
+.idea/
+*.sln
+*.ninja
+*.project
+*.xcworkspace/
+ 
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+ 
+# 忽略文档和配置文件
+docs/
+config/
+ 
+# 忽略特定文件
+# 例如，如果你有一个名为secret.txt的文件，你不希望它被版本控制
+secret.txt
+ 
+# 忽略所有的.txt文件，除了README.txt
+*.txt
+!README.txt
